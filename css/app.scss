@@ -88,6 +88,38 @@ header code {
 	margin-left: 0;
 }
 
+.header-img {
+	width: 100%;
+	height: 100%;
+}
+
+section #intro.content {
+	position: relative;
+	padding: 0;
+	margin: 0;
+
+	h1 {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+}
+
+#tagline {
+	max-width: 960px;
+	position: absolute;
+	color: white;
+	text-align: right;
+	font-size: 4vw;
+	
+	@media screen and (min-width: 960px) {
+		font-size: 40px;
+  	}
+
+	top: 60px;
+	right: 20px;
+	z-index: 100;
+}
+
 code:first-of-type {
 	header &, 
 	.progress-wrap &, 

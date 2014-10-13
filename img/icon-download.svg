@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-1333.000000, -2762.000000)" fill="#FFFFFF">
+            <g id="fonts" sketch:type="MSLayerGroup" transform="translate(15.000000, 2752.000000)">
+                <g id="brand-pdf-+-Rectangle-490" transform="translate(1315.000000, 11.000000)" sketch:type="MSShapeGroup">
+                    <path d="M11.0444444,5.02252336 L11.0444444,-0.2 L14.1555556,-0.2 L14.1555556,5.02573007 L17.6474649,5.02932929 L12.6124427,11.0051037 L7.41377247,5.01878112 L11.0444444,5.02252336 Z M21.4,14.1 L21.4,15 L4.74285714,15 L4.74285714,15 L3.8,15 L3.8,10.2 L5.68571429,10.2 L5.68571429,13.2 L19.5142857,13.2 L19.5142857,10.2 L21.4,10.2 L21.4,14.1 L21.4,14.1 Z" id="icon-download"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
