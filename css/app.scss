@@ -111,6 +111,7 @@ section #intro.content {
 	text-align: right;
 	font-size: 4vw;
 	
+	//prevent font from outgrowing container when viewport gets wider than 960px
 	@media screen and (min-width: 960px) {
 		font-size: 40px;
   	}
@@ -646,16 +647,6 @@ a > .badge {
     Panels (Overrides)
 ======================================*/
 
-// @media only screen and (max-width: 767px) {
-// 	header h2 + code {
-// 		outline: 1px solid red;
-// 		display: block;
-// 		margin-left: 0;
-// 	}
-
-	
-
-// }
 
 
 /*======================================
@@ -855,3 +846,47 @@ a > .badge {
 // 		padding-left: 0;
 // 	}
 // }
+
+
+/*======================================
+    Logo Usage (Overrides)
+======================================*/
+
+.logo-wrap {
+	@extend .clearfix; //clear the .pull-left (float-left) mixin
+}
+
+.logo-cl {
+	position: relative;
+	width: 280px;
+	height: 100px;
+	margin: 10px;
+	@extend .pull-left;
+	img {
+		position: absolute;
+		width: 180px;
+		top: 28px;
+		left: 48px;
+		&.my-propr {
+			top: 18px;
+		}
+		&.my-acct {
+			top: 45px;
+		}
+	}
+	&:hover {
+		border: 2px solid $ocean;
+	}
+}
+
+
+.logo-cl-border {
+	border: 2px solid lighten($slate, 30%);
+}
+
+.logo-cl-dark-bg { 
+	background-color: $steel-blue;
+	border: 2px solid $steel-blue;
+}
+
+
