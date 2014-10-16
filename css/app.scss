@@ -890,3 +890,88 @@ a > .badge {
 }
 
 
+/*======================================
+    Color Palettes (Overrides)
+======================================*/
+
+// define utility classes for swatch colors
+.steel-blue { background-color: $steel-blue; }
+.pewter 	{ background-color: $pewter; }
+.slate 		{ background-color: $slate; }
+.moss 		{ background-color: $moss; }
+.leaf 		{ background-color: $leaf; }
+.sand 		{ background-color: $sand; }
+.dark-red 	{ background-color: $dark-red; }
+.grape 		{ background-color: $grape; }
+.pumpkin 	{ background-color: $pumpkin; }
+.charcoal 	{ background-color: $charcoal; }
+.ocean 		{ background-color: $ocean; }
+.asparagus 	{ background-color: $asparagus; }
+.mint 		{ background-color: $mint; }
+.tangerine 	{ background-color: $tangerine; }
+
+
+.color-palettes {
+	font-size: .7em;
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	li {
+		position: relative;
+		padding-top: 100px;
+		width: 120px;
+		margin: 0 10px 10px 10px;
+		float: left;
+		border: 1px solid lighten($pewter, 25%);
+		padding-bottom: 5px;
+		&:hover {
+			border: 1px solid $ocean;
+			transition: .5s border;
+			& .swatch {
+				top: 0;
+				left: 0;
+				right: 0;
+				height: 99px;
+			}
+		}
+		&:first-of-type {
+			margin-left: 0;
+		}
+
+	}
+
+	em, dt, dd {
+		padding: 0 5px 0 5px;
+	}
+
+
+	em {
+		font-weight: bolder;
+		font-style: normal;
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}
+	
+	dt {
+		font-weight: normal;
+		clear: both;
+		float: left;
+	}
+
+	dd {
+		float: right;
+	}
+
+}
+
+.swatch {
+	position: absolute;
+	height: 100px;
+	top: -1px;
+	left: -1px;
+	right: -1px;
+}
+
+
