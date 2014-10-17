@@ -1031,15 +1031,40 @@ a > .badge {
 	float: left;
 }
 
-.photography {
+.photography, .symbology, .iconography {
 	& p {
 		font-size: 3em;
 		font-style: italic;
 		color: $pewter;
 		margin: 20px;
+		float: left;
 	}
 	& img {
 		padding: 2px;
 	}
 	
+}
+
+/*======================================
+    Symbology (Overrides)
+======================================*/
+
+.symbology {
+	& img {
+		width: 350px;
+		float: left;
+		margin-right: 30px;
+	}
+}
+
+/*======================================
+    Iconography (Overrides)
+======================================*/
+
+.iconography {
+	& img {
+		width: 250px;
+		float: left;
+		margin-right: 30px;
+	}
 }
