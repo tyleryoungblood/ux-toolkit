@@ -961,3 +961,85 @@ a > .badge {
 }
 
 
+/*======================================
+    Fonts (Overrides)
+======================================*/
+
+.initial {
+	float: left;
+	font-size: 100px;
+	width: 150px;
+}
+
+.font-examples {
+	font-weight: 400;
+	float: left;
+	& h2 {
+		color: $charcoal;
+	}
+
+	& p {
+		font-size: 1.3em;
+	}
+
+	& .italic {
+		font-style: italic;
+	}
+}
+
+.source-sans-pro {
+	font-family: $font-family-sans-serif;
+	font-weight: 400;
+	& .light {
+		font-weight: 200;
+	}
+	& .semibold {
+		font-weight: 600;
+	}
+	& .bold {
+		font-weight: 700;
+	}
+}
+
+.oswald {
+	font-family: $headings-font-family;
+}
+
+.source-sans-pro, .oswald {
+	& h2 {
+		font-size: 2em;
+	}
+}
+
+/*======================================
+    Photography (Overrides)
+======================================*/
+
+.left-col {
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+.middle-col {
+	float: left;
+	width: 300px;
+	height: 399px;
+}
+
+.right-col {
+	float: left;
+}
+
+.photography {
+	& p {
+		font-size: 3em;
+		font-style: italic;
+		color: $pewter;
+		margin: 20px;
+	}
+	& img {
+		padding: 2px;
+	}
+	
+}
