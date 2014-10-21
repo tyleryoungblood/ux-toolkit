@@ -1068,3 +1068,19 @@ a > .badge {
 		margin-right: 30px;
 	}
 }
+
+
+/*======================================
+    Fonts (Overrides)
+======================================*/
+
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('#{$font-path}SourceSansPro/SourceSansPro-LightItalic.eot');
+    src: url('#{$font-path}SourceSansPro/SourceSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-path}SourceSansPro/SourceSansPro-LightItalic.ttf') format('truetype'),
+         url('#{$font-path}SourceSansPro/SourceSansPro-LightItalic.svg#SourceSansProRegular') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
